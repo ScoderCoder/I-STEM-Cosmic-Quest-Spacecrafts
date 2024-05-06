@@ -26,7 +26,7 @@ header h1 a {
 }
 header h1 {
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 header h2 {
@@ -37,7 +37,7 @@ header h2 {
 /* Body Styles */
 .bodyc {
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 800px;
   padding: 20px;
 }
 
@@ -49,12 +49,12 @@ p {
 
 /* Image Styles */
 img {
-  max-width: 100%;
+  max-width: 600px;
   height: auto;
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .bodyc {
     max-width: 100%;
   }
@@ -126,8 +126,18 @@ img {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .imglist img {
     height: 150px; /* Adjust this value for smaller screens */
   }
+}
+
+.navbar {
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
 }
